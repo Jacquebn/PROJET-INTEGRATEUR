@@ -27,7 +27,13 @@ void Left1()
 
 void Left2()
 {
- 
+  digitalWrite(HighL, LOW);
+  digitalWrite(LowL, HIGH);
+  analogWrite(EnableL,160);
+
+  digitalWrite(HighR, LOW);
+  digitalWrite(LowR, HIGH);
+  analogWrite(EnableR,255);
   
 }
 
