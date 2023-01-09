@@ -39,7 +39,13 @@ void Left2()
 
 void Left3()
 {
-  
+  digitalWrite(HighL, LOW);
+  digitalWrite(LowL, HIGH);
+  analogWrite(EnableL,100);
+
+  digitalWrite(HighR, LOW);
+  digitalWrite(LowR, HIGH);
+  analogWrite(EnableR,255); 
 }
 
 void Right1()
