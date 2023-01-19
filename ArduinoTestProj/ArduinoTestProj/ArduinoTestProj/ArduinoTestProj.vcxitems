@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{459736a5-f3e6-4d00-8bf7-ce7103c9cd0a}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\lc.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\marmasm.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ShaderGraphContentTask.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+    <Text Include="$(MSBuildThisFileDirectory)src\ArduinoTestProj.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- <ClInclude Include="$(MSBuildThisFileDirectory)ArduinoTestProj.h" /> -->
+    <None Include="C:\Users\Bisma Naeem\Downloads\Codes-Proj\Codes-Proj\03-02-Forward-Backward\Forward_Backward\Forward_Backward.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)C++_code_to_stop.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Creating_Linear_Equations.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Forward_Backward.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)load_xml_file.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ArduinoTestProj.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Testcase1.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Testcase2.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Testcase3.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Testcase4cpp.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Testcase5cpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Forward_Backward.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Left_Right.h" />
+  </ItemGroup>
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\lc.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\marmasm.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ShaderGraphContentTask.targets" />
+  </ImportGroup>
+</Project>

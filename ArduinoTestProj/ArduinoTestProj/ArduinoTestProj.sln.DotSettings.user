@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cdd02c6f_002D4fa5_002D427d_002Db18e_002D01e6864bc6e8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=34FE97A3EF773B4F8EF713ECFA209570/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=34FE97A3EF773B4F8EF713ECFA209570/DefaultAction/@EntryValue">run</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=34FE97A3EF773B4F8EF713ECFA209570/Name/@EntryValue">ArduinoTestProj</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=34FE97A3EF773B4F8EF713ECFA209570/ProjectGuid/@EntryValue">A5369745E6F3004D8BF7CE7103C9CD0A</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=34FE97A3EF773B4F8EF713ECFA209570/Type/@EntryValue">project</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=C606345D16CBFE42B39B9B7A025A1405/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=C606345D16CBFE42B39B9B7A025A1405/Type/@EntryValue">project</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=C606345D16CBFE42B39B9B7A025A1405/Name/@EntryValue">ArduinoTestProj</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=C606345D16CBFE42B39B9B7A025A1405/ProjectGuid/@EntryValue">A5369745E6F3004D8BF7CE7103C9CD0A</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">34FE97A3EF773B4F8EF713ECFA209570</s:String></wpf:ResourceDictionary>
